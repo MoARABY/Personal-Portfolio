@@ -103,7 +103,7 @@ body {
     background-image: linear-gradient(to bottom right, #000000,#121a25);
     /* background-image: url(../Img/home.png);
     background-size: cover; */
-    height: 100vh;
+    height: calc(100vh - 50px);
 }
 .main-name {
     color: var(--blue-color);
@@ -138,6 +138,7 @@ body {
 .social-icons a:hover{
     transform: scale(1.3);
     color: #fff;
+    margin-bottom: 4px;
 }
 /*----------------------------------------------------------------- end home */
 
