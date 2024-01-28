@@ -134,11 +134,11 @@ body {
 .social-icons a {
     color: var(--blue-color);
     transition: 0.5s;
+    margin-bottom: 4px;
 }
 .social-icons a:hover{
     transform: scale(1.3);
     color: #fff;
-    margin-bottom: 4px;
 }
 /*----------------------------------------------------------------- end home */
 
@@ -297,7 +297,6 @@ body {
         bottom: 5%;
     }
 }
-}
 /*----------------------------------------------------------------- start contact */
 
 
@@ -305,7 +304,7 @@ body {
 
 @keyframes typing {
     from { width: 0% }
-    to { width: 87% }
+    to { width: 85% }
 }
 @keyframes blink-caret {
     from, to { border-color: transparent }
