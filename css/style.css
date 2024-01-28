@@ -1,0 +1,356 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=Croissant+One&family=Inter:wght@300;400;500;600;700;800;900&family=Martian+Mono:wght@100;200;300;400;500;600;700;800&family=Ramabhadra&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Skranji:wght@400;700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Caveat:wght@400;500;600;700&family=Croissant+One&family=Flavors&family=Inter:wght@300;400;500;600;700;800;900&family=Kalam:wght@300;400;700&family=Martian+Mono:wght@200;300;400;500;600;700;800&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Oswald:wght@200;300;400;500;600;700&family=Pixelify+Sans:wght@400;500;600;700&family=Ramabhadra&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Skranji:wght@400;700&family=Tajawal:wght@200;300;400;700;800;900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+:root {
+    --dark-color: #19283f;
+    --green-color: #33d1cc;
+    --blue-color: #23a3fe;
+    --yellow-color: #ffc400;
+    --section-color: #eff7fa;
+    --white-color:#ffffff;
+}
+body {
+    /* background-color: #000000; */
+    background-image: linear-gradient(to bottom right, #000000, var(--dark-color));
+    font-family: 'Work Sans', sans-serif;
+}
+.main-btn {
+    background-color: var(--blue-color);
+    color: var(--white-color);
+    border-radius: 10px;
+    transition: 0.3s;
+}
+.section-label {
+    position: relative;
+    height: 150px;
+    margin-bottom: 50px;
+}
+.section-label h1 {
+    font-size: 90px;
+    font-weight: bold;
+    color: #e2e2e2;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    letter-spacing: -5px;
+}
+.section-label p {
+    width: 100%;
+    position: absolute;
+    bottom: 7%;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #646363;
+}
+.section-label::after {
+    content: "";
+    width: 120px;
+    height: 2px;
+    background-color: var(--blue-color);
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+/*----------------------------------------------------------------- start header */
+.navbar {
+    /* background-color: #000000; */
+    background: rgba(0,0,0,0.4);
+}
+.navbar .navbar-nav  .nav-link {
+    color: #fff;
+    font-weight: 550;
+    font-family: sans-serif;
+}
+.navbar .navbar-nav .nav-link .active {
+    color: var(--blue-color);
+}
+.navbar .navbar-nav  .nav-link:active,
+.navbar .navbar-nav  .nav-link:focus,
+.navbar .navbar-nav  .nav-link:hover
+{
+    color: var(--blue-color);
+}
+.navbar .navbar-brand {
+    color: var(--blue-color);
+    font-family: 'Caveat', cursive;
+    font-size: 25px;
+    animation: wiggle 2s linear infinite;
+    transition: 0.3s;
+    margin-right: 10px;
+    -webkit-animation: wiggle 2s linear infinite;
+}
+.navbar .navbar-brand span {
+    color: #fff;
+}
+.navbar .navbar-toggler {
+    color: var(--blue-color);
+    font-size: 25px;
+    border-color: white;
+}
+.navbar .navbar-toggler:focus {
+    box-shadow: none;
+}
+.navbar .navbar-toggler[aria-expanded="true"] {
+    border-color: var(--blue-color);
+}
+/* ---------------------------------------------------------------- end header */
+
+
+/*----------------------------------------------------------------- start home */
+.home {
+    background-image: linear-gradient(to bottom right, #000000,#121a25);
+    /* background-image: url(../Img/home.png);
+    background-size: cover; */
+    height: 100vh;
+}
+.main-name {
+    color: var(--blue-color);
+    font-family: 'Caveat', cursive;
+    font-size: 50px;
+    white-space: nowrap; 
+    border-right: 3px solid  #fff;
+    overflow: hidden;
+    animation: 
+        typing 3.5s steps(40, end) forwards,
+        blink-caret 0.30s step-end infinite;
+        animation-iteration-count: infinite;
+}
+.main-btn:hover {
+    top: -8px;
+    box-shadow: 0 0 15px #23a3fe;
+}
+.main-img {
+    width: 310px;
+    height: 410px;
+    border-radius: 40px 20px;
+    transition: 0.6s;
+}
+.main-img:hover {
+    border-radius: 30px;
+    transform: scale(1.05);
+}
+.social-icons a {
+    color: var(--blue-color);
+    transition: 0.5s;
+}
+.social-icons a:hover{
+    transform: scale(1.3);
+    color: #fff;
+}
+/*----------------------------------------------------------------- end home */
+
+
+/*----------------------------------------------------------------- start services */
+.services {
+    background-image: linear-gradient(to bottom right, var(--white-color), var(--section-color));
+}
+.services .label-text {
+    letter-spacing: -2px;
+    color: var(--white-color);
+    background-color: var(--blue-color);
+}
+/*----------------------------------------------------------------- end services */
+
+
+/*----------------------------------------------------------------- start skills */
+.skills {
+    /* background-color: var(--dark-color); */
+    background-image: linear-gradient(to bottom right, var(--dark-color), #000000);
+
+}
+.skills .skill-img {
+    height: 60px;
+    width: 60px;
+}
+/*----------------------------------------------------------------- end skills */
+
+
+
+/*----------------------------------------------------------------- start projects */
+.projects {
+    background-image: linear-gradient(to bottom right, #3b6cf5,var(--blue-color), #0cbdf3);
+}
+.projects .box-1,
+.projects .box-2,
+.projects .box-3,
+.projects .box-4 {
+    overflow: hidden;
+    margin-bottom: 25px;
+    cursor: pointer;
+}
+.projects .box-1::before {
+    content: "Devs Website";
+    position: absolute;
+    background-color: rgba(255, 0, 242, 0.75);
+    height: calc(100% - 8px);
+    width: calc(100% - 8px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    transition: 0.3s;
+    transform: translateX(-104%);
+}
+.projects .box-2::before {
+    content: "Courses System";
+    position: absolute;
+    background-color: rgba(47, 172, 255, 0.75);
+    height: calc(100% - 8px);
+    width: calc(100% - 8px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    transition: 0.3s;
+    transform: translateX(-104%);
+}
+.projects .box-3::before {
+    content: "CoffeHub Website";
+    position: absolute;
+    background-color: rgba(194, 61, 0, 0.75);
+    height: calc(100% - 8px);
+    width: calc(100% - 8px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    transition: 0.3s;
+    transform: translateX(-104%);
+}
+.projects .box-4::before {
+    content: "Ghounem barbershop";
+    position: absolute;
+    background-color: rgba(4, 155, 62, 0.75);
+    height: calc(100% - 8px);
+    width: calc(100% - 8px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    transition: 0.3s;
+    transform: translateX(-104%);
+}
+.projects .box-1:hover::before,
+.projects .box-2:hover::before,
+.projects .box-3:hover::before,
+.projects .box-4:hover::before {
+    transform: translateX(0);
+}
+/*----------------------------------------------------------------- end projects */
+
+
+/*----------------------------------------------------------------- start about */
+.about {
+    background-image: linear-gradient(to bottom right, var(--section-color), var(--white-color));
+}
+.about .info-text {
+    font-size: 60px;
+    font-weight: bold;
+    color: #e2e2e2;
+    letter-spacing: -5px;
+}
+.about .about-img {
+    transform: translatey(0px);
+    animation: float 6s ease-in-out infinite;
+    img {
+        width: 100%;
+        height: auto;
+    }
+}
+/*----------------------------------------------------------------- end about */
+
+
+/*----------------------------------------------------------------- start contact */
+.contact {
+    background-image: linear-gradient(to bottom right, #000000, var(--dark-color));
+}
+.contact .icon {
+    color: var(--blue-color);
+    animation: wiggle 2s linear infinite;
+    transition: 0.3s;
+    margin-right: 10px;
+    -webkit-animation: wiggle 2s linear infinite;
+}
+@media only screen and (max-width: 750px) {
+    .home .main-img {
+        width: 240px;
+        height: 330px;
+    }
+    .home .main-name {
+        font-size: 42px;
+    }
+    .section-label h1 {
+        font-size: 70px;
+    }
+    .section-label p {
+        bottom: 5%;
+    }
+}
+/*----------------------------------------------------------------- start contact */
+
+
+/*----------------------------------------------------------------- keyrframes */
+
+@keyframes typing {
+    from { width: 0% }
+    to { width: 87% }
+}
+@keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color:#23a3fe; }
+}
+@keyframes float {
+    0% {
+        transform: translatey(0px);
+    }
+
+    50% {
+        transform: translatey(-20px);
+    }
+
+    100% {
+        transform: translatey(0px);
+    }
+}
+@keyframes wiggle {
+
+    0%,
+    7% {
+        transform: rotateZ(0);
+    }
+
+    15% {
+        transform: rotateZ(-15deg);
+    }
+
+    20% {
+        transform: rotateZ(10deg);
+    }
+
+    25% {
+        transform: rotateZ(-10deg);
+    }
+
+    30% {
+        transform: rotateZ(6deg);
+    }
+
+    35% {
+        transform: rotateZ(-4deg);
+    }
+
+    40%,
+    100% {
+        transform: rotateZ(0);
+    }
+}
