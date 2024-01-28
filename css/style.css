@@ -296,9 +296,6 @@ body {
     .section-label p {
         bottom: 5%;
     }
-    @keyframes typing {
-    from { width: 0% }
-    to { width: 87% }
 }
 }
 /*----------------------------------------------------------------- start contact */
@@ -308,7 +305,7 @@ body {
 
 @keyframes typing {
     from { width: 0% }
-    to { width: 70% }
+    to { width: 87% }
 }
 @keyframes blink-caret {
     from, to { border-color: transparent }
