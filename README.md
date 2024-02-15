@@ -1,4 +1,4 @@
-<h2>Portfolio Project</h2>
+<h1>Portfolio Project</h1>
 This is a simple portfolio website project built using HTML, CSS, Bootstrap, JavaScript, AOS (Animate On Scroll), and Font Awesome. The portfolio showcases different sections including Home, Services, Skills, Projects, About, and Contact.
 
 Sections
