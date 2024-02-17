@@ -1,7 +1,7 @@
 <h1>Portfolio Project</h1>
-This is a simple portfolio website project built using HTML, CSS, Bootstrap, JavaScript, AOS (Animate On Scroll), and Font Awesome. The portfolio showcases different sections including Home, Services, Skills, Projects, About, and Contact.
+<P>This is a simple portfolio website project built using HTML, CSS, Bootstrap, JavaScript, AOS (Animate On Scroll), and Font Awesome. The portfolio showcases different sections including Home, Services, Skills, Projects, About, and Contact.</P>
 
-Sections
+<h3>Sections</h3>
 Home: This section serves as the landing page of the portfolio website, welcoming visitors and providing a brief introduction.
 
 Services: Here, various services offered by the portfolio owner are listed along with descriptions to give visitors an understanding of what they can expect.
@@ -14,7 +14,7 @@ About: The About section provides a more detailed overview of the portfolio owne
 
 Contact: Here, visitors are provided with various means to get in touch with the portfolio owner, such as a contact form, email address, phone number, or social media links.
 
-Technologies Used
+<h3>Technologies Used</h3>
 HTML: Used for structuring the content of the web pages.<br>
 CSS: Used for styling and layout of the web pages.<br>
 Bootstrap: A front-end framework used for designing responsive and mobile-first websites.<br>
@@ -24,7 +24,7 @@ Font Awesome: Provides a collection of scalable vector icons that can be easily 
 Usage
 To view the portfolio website, simply open the index.html file in a web browser. From there, you can navigate through the different sections using the navigation menu or by scrolling down the page.
 
-Credits
+<h3>Credits</h3>
 Bootstrap: https://getbootstrap.com/
 AOS: https://michalsnik.github.io/aos/
 Font Awesome: https://fontawesome.com/
