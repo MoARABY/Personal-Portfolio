@@ -2,17 +2,17 @@
 <P>This is a simple portfolio website project built using HTML, CSS, Bootstrap, JavaScript, AOS (Animate On Scroll), and Font Awesome. The portfolio showcases different sections including Home, Services, Skills, Projects, About, and Contact.</P>
 
 <h3>Sections</h3>
-Home: This section serves as the landing page of the portfolio website, welcoming visitors and providing a brief introduction.
+<h5>Home:</h5> This section serves as the landing page of the portfolio website, welcoming visitors and providing a brief introduction.
 
-Services: Here, various services offered by the portfolio owner are listed along with descriptions to give visitors an understanding of what they can expect.
+<h5>Services:</h5> Here, various services offered by the portfolio owner are listed along with descriptions to give visitors an understanding of what they can expect.
 
-Skills: This section showcases the skills possessed by the portfolio owner. It can include a list of technical skills, soft skills, or any other relevant abilities.
+<h5>Skills:</h5> This section showcases the skills possessed by the portfolio owner. It can include a list of technical skills, soft skills, or any other relevant abilities.
 
-Projects: In this section, notable projects undertaken by the portfolio owner are highlighted. Each project may include a brief description, images, links, etc., to provide visitors with more information.
+<h5></h5>Projects: In this section, notable projects undertaken by the portfolio owner are highlighted. Each project may include a brief description, images, links, etc., to provide visitors with more information.
 
-About: The About section provides a more detailed overview of the portfolio owner, including their background, education, experience, and any other relevant information.
+<h5>About:</h5> The About section provides a more detailed overview of the portfolio owner, including their background, education, experience, and any other relevant information.
 
-Contact: Here, visitors are provided with various means to get in touch with the portfolio owner, such as a contact form, email address, phone number, or social media links.
+<h5>Contact:</h5> Here, visitors are provided with various means to get in touch with the portfolio owner, such as a contact form, email address, phone number, or social media links.
 
 <h3>Technologies Used</h3>
 HTML: Used for structuring the content of the web pages.<br>
