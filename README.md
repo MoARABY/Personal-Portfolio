@@ -15,12 +15,12 @@
 <h4>Contact:</h4> Here, visitors are provided with various means to get in touch with the portfolio owner, such as a contact form, email address, phone number, or social media links.
 
 <h3>Technologies Used</h3>
-- <h4>HTML:</h4> Used for structuring the content of the web pages.<br>
-- <h4>CSS:</h4> Used for styling and layout of the web pages.<br>
-- <h4>Bootstrap:</h4> A front-end framework used for designing responsive and mobile-first websites.<br>
-- <h4>JavaScript:</h4> Used for adding interactivity and dynamic behavior to the website.<br>
-- <h4>AOS (Animate On Scroll):</h4> A library used for animating elements on scroll, adding visual appeal to the website.<br>
-- <h4>Font Awesome:</h4> Provides a collection of scalable vector icons that can be easily customized and integrated into the website.<br>
+<h4>HTML:</h4> Used for structuring the content of the web pages.<br>
+<h4>CSS:</h4> Used for styling and layout of the web pages.<br>
+<h4>Bootstrap:</h4> A front-end framework used for designing responsive and mobile-first websites.<br>
+<h4>JavaScript:</h4> Used for adding interactivity and dynamic behavior to the website.<br>
+<h4>AOS (Animate On Scroll):</h4> A library used for animating elements on scroll, adding visual appeal to the website.<br>
+<h4>Font Awesome:</h4> Provides a collection of scalable vector icons that can be easily customized and integrated into the website.<br>
 Usage
 To view the portfolio website, simply open the index.html file in a web browser. From there, you can navigate through the different sections using the navigation menu or by scrolling down the page.
 
