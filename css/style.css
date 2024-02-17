@@ -161,6 +161,12 @@ body {
   color: var(--white-color);
   background-color: var(--blue-color);
 }
+.services img {
+  transition: 0.3s;
+}
+.services img:hover {
+  transform: rotate(5deg);
+}
 /*----------------------------------------------------------------- end services */
 
 /*----------------------------------------------------------------- start skills */
