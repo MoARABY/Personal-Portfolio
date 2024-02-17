@@ -106,16 +106,20 @@ body {
     height: calc(100vh - 50px);
 }
 .main-name {
-    color: var(--blue-color);
-    font-family: 'Caveat', cursive;
-    font-size: 50px;
-    white-space: nowrap; 
-    border-right: 3px solid  #fff;
-    overflow: hidden;
-    animation: 
-        typing 3.5s steps(40, end) forwards,
-        blink-caret 0.30s step-end infinite;
-        animation-iteration-count: infinite;
+  color: var(--blue-color);
+  font-family: "Caveat", cursive;
+  font-size: 50px;
+}
+.track-name span {
+  margin-left: 10px;
+  position: relative;
+  white-space: nowrap;
+  overflow: hidden;
+  color: var(--blue-color);
+  font-size: 40px;
+  /* font-family: "Caveat", cursive; */
+  border-right: 3px solid #fff;
+  animation: typing 4s steps(12) infinite, blink-caret 0.4s step-end infinite;
 }
 .main-btn:hover {
     top: -8px;
@@ -290,6 +294,9 @@ body {
     .home .main-name {
         font-size: 42px;
     }
+      .track-name span {
+    font-size: 25px;
+  }
     .section-label h1 {
         font-size: 70px;
     }
@@ -302,13 +309,13 @@ body {
 
 /*----------------------------------------------------------------- keyrframes */
 
-@keyframes typing {
+/* @keyframes typing {
     from { width: 0% }
     to { width: 85% }
-}
+} */
 @keyframes blink-caret {
     from, to { border-color: transparent }
-    50% { border-color:#23a3fe; }
+    50% { border-color:#ffffff; }
 }
 @keyframes float {
     0% {
